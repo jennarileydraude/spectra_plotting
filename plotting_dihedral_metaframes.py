@@ -48,7 +48,7 @@ def plot_dihedral_angles(dihedral_angles):
     plt.savefig('my_plot_high_dpi.png')
 
 # Call functions
-directory_path = '/home/jennadraude/plot_dihedrals/'  
+directory_path = 'your_directory'  
 atom_indices = (269, 262, 261, 260)  
 dihedral_angles = process_xyz_files(directory_path, atom_indices)
 plot_dihedral_angles(dihedral_angles)
