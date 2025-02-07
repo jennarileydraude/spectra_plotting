@@ -53,7 +53,7 @@ def plot_dihedral_angles(dihedral_angles1, dihedral_angles2):
     plt.savefig('dia2.png')
 
 # Call functions
-directory_path = '/home/jennadraude/plot_dihedrals/2dia/buet_6oligomer_500frames'  
+directory_path = 'your_directory'  
 atom1_indices = (494, 493, 492, 485)  
 atom2_indicies = (480, 479, 478, 401)
 dihedral_angles1 = process_xyz_files(directory_path, atom1_indices)
